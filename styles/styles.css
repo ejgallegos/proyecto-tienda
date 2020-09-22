@@ -1,0 +1,62 @@
+/*********************************
+#. Etiqueta
+*********************************/
+.etiqueta {
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+.etiqueta:hover {
+  background-color: #e95a5a;
+}
+
+/*********************************
+#. Imágenes
+*********************************/
+.imagen {
+  overflow: hidden;
+  position: relative;
+}
+
+.imagen-zoom {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: transform ease 0.3s;
+}
+
+.imagen-zoom:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+
+  cursor: pointer;
+}
+
+/*********************************
+#. Productos
+*********************************/
+
+.porduct-home {
+  transition: height 0.1s ease-out;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: text-top;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+}
+
+.porduct-home:hover {
+  -webkit-box-shadow: -1px 10px 20px 0px rgba(148, 148, 148, 1);
+  -moz-box-shadow: -1px 10px 20px 0px rgba(148, 148, 148, 1);
+  box-shadow: -1px 10px 20px 0px rgba(148, 148, 148, 1);
+  cursor: pointer;
+}
